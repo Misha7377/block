@@ -77,7 +77,7 @@ font-size: 0;
     display: inline-block;
     width: 400px;
     height: 200px;
-    outline: 1px solid black;
+    outline: 1px solid #000000;
     background: green;
     font-size: 20px;
     vertical-align: top;
@@ -101,4 +101,76 @@ font-size: 0;
     background: aquamarine;
     font-size: 20px;
     vertical-align: top;
+
+    /* float */
+
   }
+  .float-container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+    background-color: aqua;
+  }
+  .float-first > div {
+    outline: 1px solid black;
+    width: 400px;
+    height: 400px;
+    float: left;
+  }
+  .float-tu {
+    width: 800px;
+    background-color: rgb(0, 42, 255);
+    float: left;
+  }
+  .float-tu > div {
+    height: 200px;
+    outline: 1px solid black;
+  }
+  .float-ut {
+    width: 400px;
+    background-color: yellow;
+    float: right;
+  }
+  .float-ut > div {
+    height: 133.33px;
+    outline: 1px solid black;
+  }
+  .float-wrapper {
+    background-color: antiquewhite;
+  }
+  .float-block-1 {
+    width: 400px;
+    height: 400px;
+    outline: 1px solid black;
+    background: yellow;
+    float: left;
+}
+.float-block-3 {
+    width: 800px;
+    height: 200px;
+    outline: 1px solid black;
+    background: blue;
+    float: right;
+}
+.float-block-4 {
+    width: 400px;
+    height: 200px;
+    outline: 1px solid #000000;
+    background: green;
+    float: left;
+}
+.float-block-5 {
+    width: 400px;
+    background: purple;
+    float: left;
+}
+.float-block-6 {
+    height: 100px;
+    outline: 1px solid black;
+    background: red;
+  }
+  .float-block-7 {
+    height: 100px;
+    outline: 1px solid black;
+    background: aquamarine;
+}
