@@ -101,15 +101,14 @@ font-size: 0;
     background: aquamarine;
     font-size: 20px;
     vertical-align: top;
-
-    /* float */
-
   }
+
+   /* float */
+
   .float-container {
     width: 1200px;
     margin: 0 auto;
     padding: 50px 0;
-    /* background-color: aqua; */
   }
   .float-first > div {
     outline: 1px solid black;
@@ -136,7 +135,7 @@ font-size: 0;
     height: 133.33px;
     outline: 1px solid black;
   }
-  .float-wrapper {
+  .float-third {
     background-color: antiquewhite;
   }
   .float-block-1 {
@@ -146,12 +145,15 @@ font-size: 0;
     background: yellow;
     float: left;
 }
-.float-block-3 {
+.float-block-2 {
+    float: left;
     width: 800px;
+}
+.float-block-3 {
+
     height: 200px;
     outline: 1px solid black;
     background: blue;
-    float: right;
 }
 .float-block-4 {
     width: 400px;
