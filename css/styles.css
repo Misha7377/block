@@ -109,10 +109,11 @@ font-size: 0;
     width: 1200px;
     margin: 0 auto;
     padding: 50px 0;
-    background-color: aqua;
+    /* background-color: aqua; */
   }
   .float-first > div {
     outline: 1px solid black;
+    background-color: bisque;
     width: 400px;
     height: 400px;
     float: left;
