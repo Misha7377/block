@@ -1,13 +1,16 @@
 @import url('reset.css');
+
 .container {
     width: 1200px;
     margin: 0 auto;
     padding: 50px 0;
 }
+
 .first {
-font-size: 0;
+    font-size: 0;
 }
-.first > div {
+
+.first>div {
     width: 400px;
     height: 400px;
     background-color: rgb(47, 255, 0);
@@ -15,6 +18,7 @@ font-size: 0;
     font-size: 15px;
     outline: 1px solid black;
 }
+
 .second {
     display: flex;
 }
@@ -25,7 +29,7 @@ font-size: 0;
     flex-direction: column;
 }
 
-.tu > div {
+.tu>div {
     width: 800px;
     height: 200px;
     background-color: rgb(0, 42, 255);
@@ -33,7 +37,8 @@ font-size: 0;
     box-sizing: border-box;
     font-size: 15px;
 }
-.ut > div {
+
+.ut>div {
     width: 400px;
     height: 133.33px;
     background-color: yellow;
@@ -41,13 +46,16 @@ font-size: 0;
     box-sizing: border-box;
     font-size: 15px;
 }
-  * {
+
+* {
     box-sizing: border-box;
-  }
-  .wrapper {
+}
+
+.wrapper {
     font-size: 0;
-  }
-  .block-1 {
+}
+
+.block-1 {
     display: inline-block;
     width: 400px;
     height: 400px;
@@ -55,16 +63,18 @@ font-size: 0;
     background: yellow;
     font-size: 20px;
     vertical-align: top;
-  }
-  .block-2 {
+}
+
+.block-2 {
     display: inline-block;
     width: 800px;
     height: 400px;
     outline: 1px solid black;
     background: yellow;
     vertical-align: top;
-  }
-  .block-3 {
+}
+
+.block-3 {
     width: 800px;
     display: inline-block;
     height: 200px;
@@ -72,8 +82,9 @@ font-size: 0;
     background: blue;
     font-size: 20px;
     vertical-align: top;
-  }
-  .block-4 {
+}
+
+.block-4 {
     display: inline-block;
     width: 400px;
     height: 200px;
@@ -81,80 +92,93 @@ font-size: 0;
     background: green;
     font-size: 20px;
     vertical-align: top;
-  }
-  .block-5 {
+}
+
+.block-5 {
     display: inline-block;
     width: 400px;
     height: 200px;
     background: purple;
-  }
-  .block-6 {
+}
+
+.block-6 {
     height: 100px;
     outline: 1px solid black;
     background: red;
     font-size: 20px;
     vertical-align: top;
-  }
-  .block-7 {
+}
+
+.block-7 {
     height: 100px;
     outline: 1px solid black;
     background: aquamarine;
     font-size: 20px;
     vertical-align: top;
-  }
+}
 
-   /* float */
+/* float */
 
-  .float-container {
+.float-container {
     width: 1200px;
     margin: 0 auto;
     padding: 50px 0;
-  }
-  .float-first > div {
+}
+
+.float-first>div {
     outline: 1px solid black;
     background-color: bisque;
     width: 400px;
     height: 400px;
     float: left;
-  }
-  .float-tu {
+}
+
+.float-tu {
     width: 800px;
     background-color: rgb(0, 42, 255);
     float: left;
-  }
-  .float-tu > div {
+}
+
+.float-tu>div {
     height: 200px;
     outline: 1px solid black;
-  }
-  .float-ut {
+}
+
+.float-ut {
     width: 400px;
     background-color: yellow;
     float: right;
-  }
-  .float-ut > div {
+}
+
+.float-ut>div {
     height: 133.33px;
     outline: 1px solid black;
-  }
-  .float-third {
+}
+
+.float-third {
     background-color: antiquewhite;
-  }
-  .float-block-1 {
+}
+
+.float-block-1 {
     width: 400px;
     height: 400px;
     outline: 1px solid black;
     background: yellow;
     float: left;
 }
+
 .float-block-2 {
     float: left;
     width: 800px;
 }
+
 .float-block-3 {
 
     height: 200px;
     outline: 1px solid black;
     background: blue;
 }
+
 .float-block-4 {
     width: 400px;
     height: 200px;
@@ -162,17 +186,113 @@ font-size: 0;
     background: green;
     float: left;
 }
+
 .float-block-5 {
     width: 400px;
     background: purple;
     float: left;
 }
+
 .float-block-6 {
     height: 100px;
     outline: 1px solid black;
     background: red;
-  }
-  .float-block-7 {
+}
+
+.float-block-7 {
+    height: 100px;
+    outline: 1px solid black;
+    background: aquamarine;
+}
+
+/* Flex */
+
+.flex-container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.flex-first {
+    display: flex;
+}
+
+.flex-first > div {
+    outline: 1px solid black;
+    background-color: bisque;
+    width: 400px;
+    height: 400px;
+}
+
+.flex-second {
+    display: flex;
+}
+
+.flex-tu {
+    width: 800px;
+    background-color: rgb(0, 42, 255);
+}
+
+.flex-tu > div {
+    height: 200px;
+    outline: 1px solid black;
+}
+
+.flex-ut {
+    width: 400px;
+    background-color: yellow;
+    flex-direction: column;
+}
+
+.flex-ut > div {
+    height: 133.33px;
+    outline: 1px solid black;
+}
+
+.flex-third {
+    display: flex;
+}
+
+.flex-block-1 {
+    width: 400px;
+    height: 400px;
+    outline: 1px solid black;
+    background: yellow;
+}
+
+.flex-block-2 {
+    width: 800px;
+    display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-block-3 {
+    width: 800px;
+    height: 200px;
+    outline: 1px solid black;
+    background: blue;
+}
+
+.flex-block-4 {
+    width: 400px;
+    height: 200px;
+    outline: 1px solid #000000;
+    background: green;
+}
+
+.flex-block-5 {
+    width: 400px;
+    display: flex;
+  flex-direction: column;
+}
+
+.flex-block-6 {
+    height: 100px;
+    outline: 1px solid black;
+    background: red;
+}
+
+.flex-block-7 {
     height: 100px;
     outline: 1px solid black;
     background: aquamarine;
