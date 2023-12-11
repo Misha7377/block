@@ -1,1 +1,262 @@
 @import url('reset.css');
+
+/* Global */
+
+body {
+    /* font-family: 'Architects Daughter', cursive; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+.subtitle {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 62px;
+    line-height: normal; 
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header */
+
+.header {
+    background: #81A36B;
+    padding: 25px 0;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo {
+    font-family: 'Architects Daughter', cursive; 
+    font-size: 36px;
+}
+.header-list {
+display: flex;
+gap: 30px;
+}
+.header-list a {
+color: inherit;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 18px;
+}
+
+/* main section */
+
+.main-section {
+    background: #D8D8D6;
+}
+.main-section-block {
+min-height: 670px;
+display: flex;
+gap: 30px;
+}
+.section {
+    font-size: 18px;
+    display: flex;
+    flex: 1 1 50%;
+    flex-wrap: wrap;
+}
+.section-2 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex: 1 1 50%;
+    object-fit: cover; 
+}
+.section h1 {
+    padding-top: 174px;
+    margin-bottom: 41px;
+}
+.section p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.section a {
+    display: flex;
+    margin-right: 25px;
+}
+.link-1 {
+    background: #81A36B;
+    border-radius: 6px;
+    border: 1px solid #81A36B;
+    text-decoration: none;
+    padding-top: 18px;
+    padding-bottom: 21px;
+}
+.link-2 {
+    border-radius: 6px;
+    border: 1px solid #81A36B;
+    text-decoration: none;
+    padding-top: 18px;
+    padding-bottom: 21px;
+}
+.section-2 {
+    display: flex;
+    flex: 1 1 540px;
+}
+
+/* about-us */
+
+
+.about-us {
+background-color: #D8D8D6;
+padding: 120px 0;
+}
+.about-us-1 {
+    max-width: 540px;
+    min-height: 112px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-title {
+font-size: 32px;
+margin-bottom: 50px;
+text-align: center;
+}
+.about-us-1 p {
+    font-size: 18px;
+    text-align: center;
+}
+
+/* img */
+
+
+.img {
+    background: #81A36B;
+}
+.img-1 {
+    padding-top: 78px;
+    padding-bottom: 78px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 90px;
+}
+.img-1 p {
+    padding-top: 25px;
+}
+
+/* working */
+
+
+.working {
+    background: #D8D8D6;
+}
+.working-block {
+    min-height: 670px;
+    display: flex;
+    gap: 30px;
+}
+.working-1 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex: 1 1 540px;
+    object-fit: cover;
+    padding-top: 120px;
+}
+.working-2 {
+    font-size: 18px;
+    display: flex;
+    flex: 1 1 540px;
+    flex-wrap: wrap;
+}
+.working-2 h2 {
+    font-size: 32px;
+    flex-shrink: 0;
+    font-family: Architects Daughter;
+    padding-top: 300px;
+    margin-bottom: 50px;
+    flex: 1 1 540px;
+    text-align: center;
+
+}
+.working-2 p {
+    text-align: justify;
+    flex: 1 1 540px;
+}
+
+/* feature */
+
+.feature {
+padding: 120px 0;
+background: #D8D8D6;
+}
+.feature-title {
+margin-bottom: 50px;
+font-size: 32px;
+text-align: center;
+}
+.feature-cards {
+display: flex;
+gap: 30px;
+}
+.feature-card {
+    flex: 1 1 30%;
+    border-radius: 6px;
+    background: #81A36B;
+    padding: 15px;
+}
+.feature-card img{
+    height: 402px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 23px;
+}
+.feature-card-title{
+    margin-bottom: 40px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* footer */
+
+.footer {
+    background: #81A36B;
+    padding: 50px 0;
+}
+.foter-page {
+text-align: center;
+}
+.footer-link{
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+.footer-link a{
+    text-decoration: none;
+    color: inherit;
+}
+.footer-link-1{
+margin-bottom: 20px;
+}
+.footer-link-1 a{
+    text-decoration: none;
+    color: inherit;
+    }
+.footer-contacts{
+text-align: center;
+}
+.footer-contacts p{
+    margin-bottom: 15px;
+}
+.footer-list{
+    justify-content: center;
+display: flex;
+gap: 15px;
+}
+.footer-item a{
+    display: block;
+    margin-bottom: 15px;
+}
+.foter-end{
+    text-align: center;
+}

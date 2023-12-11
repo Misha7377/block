@@ -1,4 +1,4 @@
-*{
+*, * ::before, * ::after {
     box-sizing: border-box;
 }
 
@@ -25,9 +25,9 @@ time, mark, audio, video, button {
 body {
 	line-height: 1;
 }
-/* ol, ul {
+ol, ul {
 	list-style: none;
-} */
+}
 blockquote, q {
 	quotes: none;
 }
