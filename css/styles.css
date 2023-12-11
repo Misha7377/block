@@ -59,9 +59,6 @@ gap: 30px;
 }
 .section {
     font-size: 18px;
-    display: flex;
-    flex: 1 1 50%;
-    flex-wrap: wrap;
 }
 .section-2 {
     display: flex;
@@ -78,24 +75,24 @@ gap: 30px;
     margin-bottom: 20px;
     text-align: justify;
 }
+.section .buttons {
+	display: flex;
+}
 .section a {
-    display: flex;
     margin-right: 25px;
+    padding: 18px 34px;
+	color: #000;
 }
 .link-1 {
     background: #81A36B;
     border-radius: 6px;
     border: 1px solid #81A36B;
     text-decoration: none;
-    padding-top: 18px;
-    padding-bottom: 21px;
 }
 .link-2 {
     border-radius: 6px;
     border: 1px solid #81A36B;
     text-decoration: none;
-    padding-top: 18px;
-    padding-bottom: 21px;
 }
 .section-2 {
     display: flex;
